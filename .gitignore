@@ -25,4 +25,4 @@ coverage
 *.sln
 *.sw?
 
-cypress/videos/*
+cypress/videos
