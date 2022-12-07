@@ -8,11 +8,11 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "cypress": "cypress open",
-    "cypress:headless": "cypress run --headless",
+    "cypress:headless": "cypress run",
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
-    "e2e": "start-server-and-test dev localhost:3000 cypress",
-    "e2e:headless": "start-server-and-test dev localhost:3000 cypress:headless",
+    "e2e": "start-server-and-test dev http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless",
     "lint": "eslint --ext js,jsx,ts,tsx ."
   },
   "dependencies": {
